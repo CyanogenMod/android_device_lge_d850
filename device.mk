@@ -50,5 +50,9 @@ PRODUCT_COPY_FILES += \
     device/lge/g3-common/wcnss/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     device/lge/g3-common/wcnss/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
 
+# APN
+PRODUCT_COPY_FILES += \
+    device/lge/d850/rootdir/etc/apns-conf.xml:system/etc/apns-conf.xml \
+
 # common g3
 $(call inherit-product, device/lge/g3-common/g3.mk)

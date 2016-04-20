@@ -26,7 +26,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/d850/bluetooth
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_d850_defconfig
-TARGET_REQUIRES_BUMP := true
+PRODUCT_PRIVATE_KEY := device/lge/g3-common/bootkey
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
